@@ -204,3 +204,5 @@ with tf.Session() as sess:
     print(heatmaps_result.shape)
     print(np.mean(heatmaps_result))
     
+    print("offsets_result shape {}, displacementFwd_result shape {},displacementBwd_result shape {}".format(
+      offsets_result.shape,displacementFwd_result.shape,displacementBwd_result.shape))
